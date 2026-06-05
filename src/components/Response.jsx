@@ -22,7 +22,7 @@ function Response({onClick}) {
     <section className="bg-white d-flex flex-column align-items-center p-3 w-50 h-50">
       <h4 className="fw-bold">The AS responds!</h4>
 
-      <p className="py-2 px-5 flex-grow-1">{generateText()}</p>
+      <p className="flex-grow-1 text-break overflow-auto">{generateText()}</p>
 
       <a onClick={onClick} className="btn btn-info fw-bold text-white px-3 py-1">Close</a>
     </section>
