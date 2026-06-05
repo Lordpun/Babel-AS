@@ -14,7 +14,7 @@ function App() {
     <main>
       <section className="d-flex flex-column align-items-center m-5">
         <h4>Ask a question to the AS</h4>
-        <textarea placeholder="Enter your question" className="text-center m-2 p-1" rows="2" cols="75" style={{resize: "none"}}/>
+        <textarea placeholder="Enter your question" className="text-center m-2 p-1 w-75" style={{resize: "none"}}/>
         <a className="btn btn-info fw-bold text-white fs-4 px-4 m-2" onClick={() => {setVisible(true)}}>Ask</a>
       </section>
     </main>
